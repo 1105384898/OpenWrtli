@@ -6,11 +6,11 @@
 
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
-git clone https://github.com/linkease/istore.git feeds/istore
-git clone https://github.com/linkease/nas-packages.git feeds/nas
-git clone https://github.com/linkease/nas-packages-luci.git feeds/nas_luci
+git clone https://github.com/linkease/istore.git package/istore
+git clone https://github.com/linkease/nas-packages.git package/nas
+git clone https://github.com/linkease/nas-packages-luci.git package/nas_luci
 
-git clone https://github.com/immortalwrt-collections/openwrt-gowebdav.git feeds/gowebdav
+git clone https://github.com/immortalwrt-collections/openwrt-gowebdav.git package/gowebdav
 
 ./scripts/feeds install -a
 # 后台IP设置
