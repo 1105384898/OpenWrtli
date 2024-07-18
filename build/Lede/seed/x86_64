@@ -527,18 +527,3 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 CONFIG_shadow-all=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
-
-#istoreos theme
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-app-ddnsto=y
-CONFIG_PACKAGE_luci-app-diskman=y
-CONFIG_PACKAGE_luci-app-istorex=y
-CONFIG_PACKAGE_luci-app-linkease=y
-CONFIG_PACKAGE_luci-app-quickstart=y
-CONFIG_PACKAGE_luci-app-unishare=y
-CONFIG_PACKAGE_luci-nginxer=y
-#istoreos theme
-
-CONFIG_PACKAGE_luci-app-gowebdav=y
-
-
