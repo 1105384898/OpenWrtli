@@ -4,7 +4,9 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+echo >> feeds.conf.default
+echo 'src-git jerrykuku-argon https://github.com/jerrykuku/luci-theme-argon.git;main' >> feeds.conf.default
+
 
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
