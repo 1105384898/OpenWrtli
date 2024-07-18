@@ -4,14 +4,13 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
-echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-echo >> feeds.conf.default
-echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
-echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+git clone https://github.com/jerrykuku/luci-theme-argon /package/luci-theme-argon
 
-echo >> feeds.conf.default
-echo 'src-git openwrt-gowebdav https://github.com/immortalwrt-collections/openwrt-gowebdav.git;main' >> feeds.conf.default
+src-git istore https://github.com/linkease/istore;main
+src-git nas https://github.com/linkease/nas-packages.git;master
+src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
+
+src-git gowebdav https://github.com/immortalwrt-collections/openwrt-gowebdav.git;main
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"            # 修改openwrt后台地址(填0为关闭)
