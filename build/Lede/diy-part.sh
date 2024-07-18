@@ -5,10 +5,6 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 echo >> feeds.conf.default
-echo 'src-git jerrykuku-argon https://github.com/jerrykuku/luci-theme-argon.git;main' >> feeds.conf.default
-
-
-echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 echo >> feeds.conf.default
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
