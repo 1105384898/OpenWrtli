@@ -12,7 +12,6 @@ git clone https://github.com/linkease/nas-packages-luci.git package/nas_luci
 
 git clone https://github.com/immortalwrt-collections/openwrt-gowebdav.git package/gowebdav
 
-./scripts/feeds install -a
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
