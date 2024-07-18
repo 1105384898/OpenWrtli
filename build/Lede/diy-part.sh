@@ -4,14 +4,6 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-
-git clone https://github.com/linkease/istore.git package/istore
-git clone https://github.com/linkease/nas-packages.git package/nas
-git clone https://github.com/linkease/nas-packages-luci.git package/nas_luci
-
-git clone https://github.com/immortalwrt-collections/openwrt-gowebdav.git package/gowebdav
-
 # 后台IP设置
 export Ipv4_ipaddr="192.168.5.1"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
